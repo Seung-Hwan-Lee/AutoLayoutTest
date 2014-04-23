@@ -19,6 +19,8 @@
 		E9DC14E41906445F002B3B72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DC14CC1906445E002B3B72 /* UIKit.framework */; };
 		E9DC14EC1906445F002B3B72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9DC14EA1906445F002B3B72 /* InfoPlist.strings */; };
 		E9DC14EE1906445F002B3B72 /* StudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC14ED1906445F002B3B72 /* StudyTests.m */; };
+		E9DC14FA1906446E002B3B72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC14F81906446E002B3B72 /* ViewController.m */; };
+		E9DC14FB1906446E002B3B72 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DC14F91906446E002B3B72 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		E9DC14E91906445F002B3B72 /* StudyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StudyTests-Info.plist"; sourceTree = "<group>"; };
 		E9DC14EB1906445F002B3B72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9DC14ED1906445F002B3B72 /* StudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyTests.m; sourceTree = "<group>"; };
+		E9DC14F71906446E002B3B72 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9DC14F81906446E002B3B72 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9DC14F91906446E002B3B72 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				E9DC14D81906445E002B3B72 /* AppDelegate.m */,
 				E9DC14DA1906445F002B3B72 /* Images.xcassets */,
 				E9DC14CF1906445E002B3B72 /* Supporting Files */,
+				E9DC14F71906446E002B3B72 /* ViewController.h */,
+				E9DC14F81906446E002B3B72 /* ViewController.m */,
+				E9DC14F91906446E002B3B72 /* ViewController.xib */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9DC14D31906445E002B3B72 /* InfoPlist.strings in Resources */,
+				E9DC14FB1906446E002B3B72 /* ViewController.xib in Resources */,
 				E9DC14DB1906445F002B3B72 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9DC14FA1906446E002B3B72 /* ViewController.m in Sources */,
 				E9DC14D91906445E002B3B72 /* AppDelegate.m in Sources */,
 				E9DC14D51906445E002B3B72 /* main.m in Sources */,
 			);
@@ -313,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -345,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
